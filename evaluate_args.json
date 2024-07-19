@@ -1,0 +1,21 @@
+{
+  "data_name": "zhuanzhi",
+  "model_dir": "../model/chatglm-6b/",
+  "lora_r": 8,
+  "max_source_length": 128,
+  "max_target_length": 400,
+  "instruct_column": "instruction",
+  "query_column": "input",
+  "response_column": "output",
+  "train_path": "data/zhuanzhi/train.txt",
+  "dev_path": "data/zhuanzhi/dev.json",
+  "ignore_pad_token_for_loss": true,
+  "train_batch_size": 6,
+  "gradient_accumulation_steps": 1,
+  "save_dir": "./output",
+  "num_train_epochs": 1,
+  "local_rank": 0,
+  "log_steps": 10,
+  "save_steps": 400,
+  "deepspeed_jaon_path": "deepspeed.json"
+}
