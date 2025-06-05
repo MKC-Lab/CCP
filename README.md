@@ -53,17 +53,17 @@ nltk.download('punkt')
 
 ### 2.启动命令行 Demo 
 ```python
-python [cli_demo.py](http://_vscodecontentref_/15)
+python cli_demo.py
 ```
 
 ### 3.启动 Web UI
 ```python
-python [Chatzhuanzhi.py](http://_vscodecontentref_/17)
+python Chatzhuanzhi.py
 ```
 
 ### 4. 启动 API 服务
 ```python
-python [api.py](http://_vscodecontentref_/18)
+python api.py
 ```
 提供基于 FastAPI 的 RESTful 接口和 WebSocket 实时问答接口。
 
